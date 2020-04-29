@@ -22,6 +22,6 @@ class App < Sinatra::Base
   
   get "/multiply/:num1/:numb2" do 
     params[:num1].to_i  * params[:num2].to_i
-    binind.pry 
+    bindingind.pry 
   end 
 end
